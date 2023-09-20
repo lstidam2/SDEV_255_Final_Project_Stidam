@@ -1,0 +1,69 @@
+body{
+color:darkgreen;
+font-family: 'Courier New', Courier, monospace;
+padding:0;
+background-color:beige;
+}
+
+.header{
+    list-style-type: none;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+header a:link{color:darkgreen}
+header a:visited{color: darkgreen}
+header a:active{color:darkgreen}
+nav a:link{color:beige}
+nav a:visited{color:beige}
+a:hover{color:blue}
+nav a:active{color:beige;}
+
+nav{
+    text-align: center;
+    margin:auto;
+    width: 95%;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: darkgreen;
+    padding-left: 0;
+    padding-right: 0;
+}
+nav li{
+    padding-top: .5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#signin{
+    text-align: right;
+}
+a{text-decoration: none;
+list-style-type: none;}
+
+#center{
+    margin:auto;
+    text-align: center;
+}
+
+.title{
+    font-size: 25px;
+    font-weight:bold;
+}
+
+#main text{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
